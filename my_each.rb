@@ -1,3 +1,3 @@
 def my_each (words)
-  while words.include
+  while words.include?
 end
