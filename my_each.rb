@@ -1,6 +1,6 @@
 def my_each (words)
   while i < words.length
-    yield array[i]
+    yield words[i]
     i =+ 1
   end
   array
