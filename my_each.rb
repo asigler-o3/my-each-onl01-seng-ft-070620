@@ -1,5 +1,5 @@
 def my_each (words)
-  while i < words.length
+  while words.include? 
     yield words[i]
     i =+ 1
   end
