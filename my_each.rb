@@ -1,6 +1,6 @@
 def my_each (words)
   while words.include? |word|
-    yield words[i]
+    yield word[i]
     i += 1
   end
   words
